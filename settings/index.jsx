@@ -1,7 +1,7 @@
 registerSettingsPage(() => (
   <Page>
     <Text bold align="center">
-      StyleTime Settings
+      Settings
     </Text>
     <TextInput
       settingsKey="weatherZipCode"
