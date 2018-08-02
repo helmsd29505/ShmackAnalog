@@ -1,0 +1,46 @@
+<svg class="background">
+       <defs>
+        <section>
+          <symbol id="sec-hand">
+            <line x1="0" y1="0" x2="0" y2="120" stroke-width="2"/>
+          </symbol>
+          <symbol id="min-hand">
+          </symbol>
+          <symbol id="hour-hand">
+          </symbol>
+          <symbol id="center-dot">
+            <circle r="4" fill="#F5F5F5"/>
+            <circle r="2" fill="fb-dark-gray"/>
+          </symbol>
+        </section>
+        <symbol id="clock-widget" class='clock-widget' type='clock-widget'
+            focusable='false' pointer-events='visible' system-events='all' width='300' height='300' data-size='16'/>
+        </defs>
+      
+      <image id="WatchFace" class="WatchFace" href="background.png" />
+      <text id="date1" class="date1" />
+      <text id="date2" class="date2" />
+      <use id="analog-watch-hands" href='#clock-widget' x='0' y='0' >
+        <g transform="translate(50%,50%)">
+          <g id="second-hand">
+            <use href="#sec-hand" class="sec-hand" />
+          </g>
+          <g id="minute-hand">
+            <use href="#min-hand" class="min-hand" />
+             <image href="minuteHand.png" width="2" height="125" class="min-hand" /> 
+          </g>
+          <g id="hour-hand">
+            <use href="#hour-hand" class="hour-hand" />
+             <image href="hourHand.png" width="5" height="80" class="hour-hand" /> 
+          </g>
+         </g>
+        <text id="myLabel" />
+        <use href="#weather" y="33" />
+      </use>
+      <text id="heartrateText" class="heartrateText">BPM</text>
+      <text id="stepsText" class="stepsText">STEPS</text>
+      <text id="heartrateValue" class="heartrateValue">???</text>
+      <text id="stepsValue" class="stepsValue">???,???</text>
+      <text id="battText" class="battText">BAT</text>
+      <text id="battValue" class="battValue">???</text>
+   </svg>

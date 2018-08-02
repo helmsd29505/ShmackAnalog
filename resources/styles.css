@@ -1,0 +1,94 @@
+#myLabel {
+  font-size: 48;
+  font-family: System-Light;
+  text-length: 24;
+  text-anchor: middle;
+  x: 50%;
+  y: 55%;
+  fill: white;
+}
+.sec-hand {
+  /*-105*/
+  y: -105;
+  fill: fb-light-gray;
+}
+.min-hand {
+  x: -1;
+  y: -108;
+}
+.hour-hand {
+  x: -1;
+  y: -67;
+}
+#heartrateText {
+  font-size: 22;
+  font-family: Seville-Condensed;
+  text-length: 32;
+  text-anchor: start;
+  x: 25;
+  y: 45;  
+  fill: white;
+}
+#stepsText {
+  font-size: 22;
+  font-family: Seville-Condensed;
+  text-length: 32;
+  text-anchor: start;
+  x: 222;
+  y: 45;
+  fill: white;
+}
+#heartrateValue {
+  font-size: 22;
+  font-family: Seville-Condensed;
+  text-length: 32;
+  text-anchor: start;
+  x: 35;
+  y: 65;  
+  fill: white;
+}
+#stepsValue {
+  font-size: 22;
+  font-family: Seville-Condensed;
+  text-length: 32;
+  text-anchor: middle;
+  x: 250;
+  y: 65;
+  fill: white;
+}
+#battText {
+  font-size: 22;
+  font-family: Seville-Condensed;
+  text-length: 32;
+  text-anchor: start;
+  x: 25;
+  y: 255;
+  fill: white;
+}
+#battValue {
+  font-size: 22;
+  font-family: Seville-Condensed;
+  text-length: 32;
+  text-anchor: start;
+  x: 25;
+  y: 275;
+  fill: white;
+}
+#date1 {
+  font-size: 22;
+  font-family: Seville-Condensed;
+  text-length: 32;
+  text-anchor: start;
+  x: 230;
+  y: 275;
+  fill: white;
+}
+#date2 {
+  font-size: 22;
+  font-family: Seville-Condensed;
+  text-length: 32;
+  text-anchor: start;
+  x: 234;
+  y: 255;
+  fill: white;
+}
